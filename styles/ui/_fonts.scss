@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../../fonts/icomoon.eot?1lzlwy');
+  src:url('../../fonts/icomoon.eot?#iefix1lzlwy') format('embedded-opentype'),
+    url('../../fonts/icomoon.ttf?1lzlwy') format('truetype'),
+    url('../../fonts/icomoon.woff?1lzlwy') format('woff'),
+    url('../../fonts/icomoon.svg?1lzlwy#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-page:before {
+  content: "\e600";
+}
+.icon-star:before {
+  content: "\e601";
+}
+.icon-smile:before {
+  content: "\e602";
+}
+
+
+
+@mixin Headers {  
+  @include font-size(34px, 38px);
+  font-family: 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+@mixin Icons {  
+  @include font-size(36px, 40px);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+@mixin Content {  
+  @include font-size(12px, 15px);
+  font-family: 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+
+
+
+
+

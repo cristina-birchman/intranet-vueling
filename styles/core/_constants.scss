@@ -1,0 +1,102 @@
+//----------------------------------------
+// Dimensions
+//----------------------------------------
+
+$BASE_FONT_SIZE: 16px !default;
+$BASE_LINE_HEIGHT: 26px !default;
+$REM_LINE_HEIGHT: $BASE_LINE_HEIGHT / $BASE_FONT_SIZE * 1rem;
+
+
+//----------------------------------------
+// Responsive
+//----------------------------------------
+
+$MOBILE_SMALL_WIDTH: 320px;
+$MOBILE_SMALL_HEIGHT: 480px;
+$MOBILE_MEDIUM_WIDTH: 560px;
+$MOBILE_LARGE_WIDTH: 640px;
+$TABLET_WIDTH: 768px;
+$DESKTOP_WIDTH: 1024px;
+$DESKTOP_MEDIUM_WIDTH: 1280px;
+
+$MAX_DESKTOP_LARGE_WIDTH: 1440px;
+
+
+//----------------------------------------
+// Colors
+//----------------------------------------
+
+$BLACK: #000000;
+$WHITE: #FEFCFD;
+$PALE_WHITE: #F2F2F2;
+$WHITE_DARKER: darken($WHITE, 22%);
+$WHITE_FADED: transparentize($WHITE, 0.8);
+$GREY_INACTIVE:#CCCCCC;
+$GREY: #545454;
+$LIGHT_GREY: #D7D7D7;
+$DARK_GREY:#555555;
+$GREY_CTA:#C9C9C9;
+$SUPER_DARK_GREY:#333333;
+
+
+$BLUE: #00AFE5;
+$GREEN: #00CE6B;
+
+$PINK:#9B788D;
+
+$DARK_PINK:#47003B;
+
+//----------------------------------------
+// Font Weights
+//----------------------------------------
+
+$THIN: 100;
+$LIGHT: 200;
+$REGULAR: 400;
+$MEDIUM: 500;
+$BOLD: 700;
+$EXTRABOLD: 900;
+
+//----------------------------------------
+// Directions
+//----------------------------------------
+
+$LEFT: left;
+$RIGHT: right;
+$UP: up;
+$DOWN: down;
+
+
+//----------------------------------------
+// Alignments
+//----------------------------------------
+
+$CENTER: center;
+
+
+//----------------------------------------
+// Targets
+//----------------------------------------
+
+$INLINE: inline;
+$BEFORE: before;
+$AFTER: after;
+
+
+//----------------------------------------
+// Positions
+//----------------------------------------
+
+$RELATIVE: relative;
+$ABSOLUTE: absolute;
+$FIXED: fixed;
+
+
+//----------------------------------------
+// Z-index Depth
+//----------------------------------------
+
+$MENU_Z: 100;
+$LOADER_Z: 50;
+$COVER_Z: 25;
+$PAGE_Z: 10;

@@ -1,0 +1,43 @@
+
+.masterpage-container{
+
+	.mobile &{
+
+		
+
+	}
+	
+	@include size(100%, 100%);
+	width: 100%;
+	@include xCenterElement;
+
+	
+	nav.top-menu{
+		background-color: $WHITE;
+		border-bottom: 1px solid  $GREY;
+		height:	60px;
+		width: 100%;
+		position: relative;
+
+		.hamburguer{
+			@include size(20px, 20px);
+			position:absolute;
+			top:20px;
+			left:20px;
+		
+		}
+	}
+
+	.left-menu{
+		opacity: 0;
+		@include size(200px, 500px);
+		background-color: $GREY;
+
+		&.open{
+			opacity:1;
+		}
+	}
+
+
+}
+
