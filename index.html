@@ -5,22 +5,42 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Birchman Frontend developer</title>
+	<title>Vueling Intranet</title>
 	<link rel="stylesheet" href="min/main.css">
 </head>
 <body class="page">
-	<div id="masterpage" class="masterpage-container"> 
+
+	<div id="menuBarModule" class="menu-container"> 
 
 		<nav class="top-menu">
-			<button id="menuButton" class="hamburguer"></button>
+
+			<div class="wrapper-burguer">
+				<div class="vertical">
+					<button id="menuButton" class="menu-button">
+    					<span class="burger-icon"></span>
+					</button>	
+				</div>
+					
+			</div>
+			
+			<button class="user"></button>
 		</nav>
 
 		<div id="leftMenuPanel" class="left-menu">
+			
 			
 		</div>
 
 		
 	</div>
+
+	<script>
+		var menuButton = document.getElementById('menuButton');
+		menuButton.addEventListener('click', function (e) {
+		    menuButton.classList.toggle('is-active');
+		    e.preventDefault();
+		});
+	</script>
 
 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

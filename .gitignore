@@ -1,2 +1,15 @@
-.sass-cache
+# Folders to ignore
+__MACOSX/
+build/
+
+# Files to ignore
+.DS_Store
+prepros.cfg
 *.css.map
+*.js.map
+
+# Sass cache
+/.sass-cache
+
+
+

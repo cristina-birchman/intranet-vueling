@@ -1,0 +1,71 @@
+
+.menu-container{
+
+	.mobile &{
+
+		
+
+	}
+	
+	@include size(100%, 100%);
+	@include xCenterElement;
+
+
+	.top-menu{
+		@include box-shadow(0, 2px, 2px, rgba(0, 0, 0, 0.075));
+		@include size(100%, 60px);
+		background-color: $WHITE;
+		position: relative;
+		
+		
+		.wrapper-burguer{
+			@include absoluteTL(5px, 3px);
+			@include size(50px, 50px);
+			text-align: center;
+			cursor: pointer;
+		
+
+			.vertical{
+				display: inline-block;
+				@include vertical-align();
+				
+
+				.menu-button {
+					display: inline-block;
+					padding: .5em;	
+				    background-color: transparent;								
+				}
+
+				.burger-icon {
+					@include burger(25px, 4px, 4px, $GREY, 2px);
+				}
+				
+			}
+
+		}
+		
+
+		.user{
+			@include rounded(50%);
+			@include size(40px, 40px);
+			@include absoluteTR(8px, 20px);
+
+			background-color: $GREY;			
+			overflow: hidden;	
+		}
+		
+	}
+
+	.left-menu{
+		opacity: 0;
+		@include size(200px, 500px);
+		background-color: red;
+
+		&.open{
+			opacity:1;
+		}
+	}
+
+
+}
+
